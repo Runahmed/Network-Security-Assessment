@@ -1,0 +1,10 @@
+# Nmap 7.99 scan initiated Mon Oct 26 15:04:07 2026 as: /usr/lib/nmap/nmap --privileged -p 21 --script ftp-anon -oN /home/kali/ftp_finding.txt 192.168.56.20
+Nmap scan report for 192.168.56.20
+Host is up (0.0065s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+MAC Address: 08:00:27:8C:5B:8B (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Mon Oct 26 15:04:07 2026 -- 1 IP address (1 host up) scanned in 0.41 seconds

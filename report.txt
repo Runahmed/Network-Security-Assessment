@@ -1,0 +1,68 @@
+CYBERSECURITY HOME LAB PROJECT
+
+Project: Network Security Assessment
+Date: October 26, 2026
+
+1. PROJECT OBJECTIVE
+
+The goal of this project is to learn how to identify
+open ports, network services, and security risks
+using Kali Linux and Nmap.
+
+2. LAB ENVIRONMENT
+
+Attacker/Testing Machine: Kali Linux
+Target Machine: Metasploitable 2
+Target IP Address: 192.168.56.20
+Network: Isolated VirtualBox Internal Network
+
+3. TOOLS USED
+
+- Kali Linux
+- Nmap
+- Oracle VirtualBox
+- Metasploitable 2
+
+4. SECURITY FINDINGS
+
+Finding 1: Anonymous FTP Login
+Port: 21
+Risk: Unauthorized users may access FTP files.
+Evidence: Anonymous FTP login was allowed.
+
+Finding 2: Telnet Service
+Port: 23
+Risk: Telnet sends information without encryption.
+
+Finding 3: Outdated SSH Service
+Port: 22
+Risk: Older software may contain vulnerabilities.
+
+Finding 4: Outdated HTTP Server
+Port: 80
+Risk: Older web server software may have
+known security vulnerabilities.
+
+5. CONCLUSION
+
+This project helped me understand how to use Nmap
+to identify open ports and investigate network
+security risks in a controlled environment.
+
+6. SECURITY RECOMMENDATIONS
+
+1. Disable anonymous FTP access to prevent
+   unauthorized users from accessing files.
+
+2. Replace Telnet with SSH because SSH
+   encrypts network communication.
+
+3. Update outdated SSH software to reduce
+   security vulnerabilities.
+
+4. Update the Apache web server and
+   apply security patches.
+
+5. Close unnecessary network ports and
+   regularly monitor network activity.
+   
