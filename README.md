@@ -46,3 +46,18 @@ Through this project, I learned how to use Nmap to discover open ports, identify
 
 ## Ethical and Legal Notice
 All testing was performed in an isolated, authorized home lab using an intentionally vulnerable Metasploitable 2 virtual machine. No external systems were tested.
+
+
+## Lab Screenshots
+
+### Network and FTP Scan
+![Network and FTP Scan](01-network-and-ftp-scan.png)
+
+### Telnet and HTTP Services
+![Telnet and HTTP Services](02-service-telnet-http-scans.png)
+
+### Nmap and Anonymous FTP Assessment
+![Nmap and FTP Assessment](03-nmap-and-ftp-anonymous-scan.png)
+
+### Telnet and HTTP Scan
+![Telnet and HTTP Scan](04-telnet-and-http-scan.png)
